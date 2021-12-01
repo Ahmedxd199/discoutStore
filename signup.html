@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/signup.css">
+
+
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lobster&display=swap" rel="stylesheet"> -->
+
+    <title> Discount Store </title>
+    </head>
+    <body>
+        <div class="register-photo">
+            <div class="form-container">
+                <div class="image-holder"></div>
+                <form method="post" action="homeLog.html" >
+                    <h2 class="text-center"><strong>DISCOUNT</strong> STORE</h2>
+                    <div class="form-group"><input id="name" class="form-control" type="text" name="username" placeholder="User Name"  required ></div>
+                    <div class="form-group"><input id="address" class="form-control" type="text" name="address" placeholder="Address" required ></div>
+                    <div class="form-group"><input id="mail" class="form-control" type="email" name="email" placeholder="Email" required ></div>
+                    <div class="form-group"><input id="pass" class="form-control" type="password" name="password" placeholder="Password" required ></div>
+                    <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)" onblur="repeatpas(this)" ></div>
+                    <span id="repeatpass" style="display: none; color: red;"> password and repeat password should be the same </span>
+                    <div class="form-group">
+                        <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
+                    </div>
+                    <div class="form-group"><input class="buttom" type="button" onclick="savingLocalStorage(0);" value="SignUp"></div><a class="already" href="login.html">You already have an account? Login here.</a>
+                </form>
+            </div>
+        </div>			
+        
+        <script src="js/signup.js" ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!--    <form>
+            <fieldset>
+                <legend> <h1 style="text-align: center;" id="h1"> Discount Store </h1></legend>
+                USER NAME :
+                <br>
+                <input id="name" type="text" pattern="[a-zA-Z] {3,}" >
+                <br>
+                YOUR PHONE NUMBER :
+                <br>
+                <input id="num" type="tel" 
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" >
+                <br>
+                YOUR EMAIL :
+                <br>
+                <input id="mail" type="email" pattern="([a-zA-Z0-9-\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9{3}]" >
+                <br>
+                YOUR ADDRESS :
+                <br>
+                <input id="address" type="text">
+                <br>
+                SET PASSWORD :
+                <br>
+                <input id="pass" type="password">
+                <br>
+                REPEAT PASSWORD :
+                <br>
+                <input type="password" value="" name="nnn" onblur="repeatpas(this)"/>
+                <span id="repeatpass" style="display: none; color: red;"> password and repeat password should be the same </span>
+                <br>
+                <input type="button" value="Sign Up" onclick="savingLocalStorage()" />
+
+            </fieldset>
+        </form>
+        <style>
+            body{
+                background-image: url(backgroundopacityy.jpg);
+                text-align: center;
+            }
+            #h1{ 
+            font-family:'Lobster', cursive;
+            font-size: 1.5cm;
+            color:rgb(40, 121, 192) ;
+        }
+        background: #f1f7fc; (5)
+        </style>
+
+        <script src="signup.js" ></script> -->
+
+    </body>
+</html>

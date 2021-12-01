@@ -1,0 +1,94 @@
+/* sign up*/
+body{
+    background-image: url("../res/images/backgroundopacityy.jpg");
+}
+.register-photo {
+    
+    padding: 80px 0
+}
+
+.register-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    height: auto;
+    background: url("../res/images/WhatsApp\ Image\ 2021-11-30\ at\ 7.05.47\ PM.jpeg");
+    background-size: cover
+}
+
+.register-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.register-photo form {
+    display: table-cell;
+    width: 325px;
+    background-color: #e8f3f0;
+    padding: 30px 50px;
+    color: #2bb18b
+}
+
+@media (max-width:991px) {
+    .register-photo form {
+        padding: 40px
+    }
+}
+
+.register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+.register-photo form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #2bb18b;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 40px
+}
+
+.register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px
+}
+
+
+
+
+.register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #2bb18b;
+    opacity: 0.9;
+    text-decoration: none
+}
+.buttom{
+    border: 1px solid #2bb18b ;
+    color: #fff;
+    padding: 9px;
+    background-color: #2bb18b;
+    border-radius: 5px;
+    transition: all 0.5 ;
+    font-size: 12px;
+}
+.buttom:hover{
+    border: 1px solid #2bb18b ;
+    color:#2bb18b ;
+    padding: 9px;
+    background-color:#fff ;
+    border-radius: 5px;
+    transition: all 0.5 ;
+    font-size: 12px;
+}
+
+
+/* end sign up*/

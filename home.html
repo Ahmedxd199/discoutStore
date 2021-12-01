@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+	<nav>
+		<label class="logo"> DISCOUNT STORE </label>
+		<ul>
+			<li><input id="search" type="search" placeholder="Search"> </li>
+			<li><a class="active" href="home.html"> Home </a> </li>
+			<li><a href="signup.html" id="up"> Register </a> </li>
+			<li><a href="login.html" id="in"> Log In </a> </li>
+			<li><a href="Cart.html"> Cart </a> </li>
+		</ul>
+	</nav>
+
+	<br>
+
+ 
+
+
+	<h2 style="color: #11775a; text-align: center; padding: 20px;">WHATEVER YOU WANT YOU WILL FIND HERE </h2>
+	<br>
+
+	<div class="slide" style="max-width:600px">
+		<img class="mySlides" src="res/images/img1.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+		<img class="mySlides" src="res/images/img2.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+		<img class="mySlides" src="res/images/img3.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+		<img class="mySlides" src="res/images/img4.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+		<img class="mySlides" src="res/images/img5.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+		<img class="mySlides" src="res/images/img6.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+		<img class="mySlides" src="res/images/img7.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+		<img class="mySlides" src="res/images/img8.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+		<img class="mySlides" src="res/images/img9.jpg" style="width: 600px;height: 400px; border-radius: 10%">
+	</div>
+
+	<style>
+		.slide {
+			background-color: gray;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 980px;
+			
+		}
+	</style>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) { myIndex = 1 }
+			x[myIndex - 1].style.display = "block";
+			setTimeout(carousel, 2000);
+		}
+	</script>
+
+
+
+	<hr>
+
+	<div class="products">
+	<img src="res/images/cart.png" alt="cart" onclick="window.open('Cart.html');" class="cart_img">
+		<div class="product-items" id="mydata">
+
+		</div>
+	</div>
+
+
+
+	<footer class="footer">
+		<div class="containerf">
+			<div class="rowf">
+				<div class="footer-col" id="logo">
+					<h2>Discount Store</h2>
+				</div>
+				<div class="footer-col">
+					<h4>Main</h4>
+					<ul class="ulf">
+						<li><a href="#">home</a></li>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">contact us</a></li>
+						<li><a href="#">privacy policy</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>online shop</h4>
+					<ul class="ulf">
+						<li><a href="#">watch</a></li>
+						<li><a href="#">bag</a></li>
+						<li><a href="#">shoes</a></li>
+						<li><a href="#">dress</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>follow us</h4>
+					<div class="social-links">
+						<a href="#" style=" background: url(res/images/facebook.png); height: 40px; width: 40px;"></a>
+						<a href="#" style=" background: url(res/images/twitter.png); height: 40px; width: 40px;"></a>
+						<a href="#" style=" background: url(res/images/instagram.png); height: 40px; width: 40px;"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="rights">
+			<p>Discount Store &copy; Copyright Reserved</p>
+		</div>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>

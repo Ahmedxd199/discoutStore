@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "0"
+      },
+      "fields": {
+        "title": "shoes1",
+        "price": 150,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/shoe-1.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "shoes2",
+        "price": 160,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/shoe-2.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "shoes3",
+        "price": 170,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/shoe-3.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "shoes4",
+        "price": 180,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/shoe-4.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "shoes5",
+        "price": 190,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/shoe-5.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "shoes6",
+        "price": 200,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/shoe-6.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "shoes7",
+        "price": 210,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/shoe-7.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "shoes8",
+        "price": 250,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/shoe-8.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "fashion1",
+        "price": 150,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/fashion-img-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "fashion2",
+        "price": 150.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/fashion-img-2.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": "fashion3",
+        "price": 150.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/fashion-img-3.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "11"
+      },
+      "fields": {
+        "title": "fashion4",
+        "price": 150.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "res/images/fashion-img-4.png"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
